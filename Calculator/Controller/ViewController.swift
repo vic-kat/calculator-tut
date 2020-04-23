@@ -32,8 +32,6 @@ class ViewController: UIViewController {
         
     }
     
-   
-    
     
     @IBAction func calcButtonPressed(_ sender: UIButton) {
 
@@ -63,6 +61,7 @@ class ViewController: UIViewController {
                 if numValue == "."{
                    let isInt = floor(displayValue) == displayValue
                     // if for example 8 != 8.1 then no need to put . anymore // does not work for 0.0 !
+                    
                     if !isInt{
                         return
                     }

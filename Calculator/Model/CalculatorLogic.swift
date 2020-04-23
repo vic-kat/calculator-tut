@@ -6,7 +6,7 @@
 
 import Foundation
 
-class CalculatorLogic {
+struct CalculatorLogic {
 
   //private var isFinishedTypingNumber: Bool = true
     
@@ -33,46 +33,5 @@ class CalculatorLogic {
    }
     
 
-    func setToDouble(){
-     
-//        private var displayValue: Double {
-//            get {
-//                guard let number = Double(displayLabel.text!) else {
-//                    fatalError("Cannot convert displayLabel.text to a Double")
-//                }
-//                return number
-//            }
-//            set {
-//                 displayLabel.text = String(newValue)
-//            }
-//        }
-    }
-
-    
-    func calcTop(){
-    
-
-    }
-    
-
-    func checkDot(){
-//    if let numValue = sender.currentTitle {
-//
-//         if isFinishedTypingNumber {
-//             displayLabel.text = numValue
-//             isFinishedTypingNumber = false
-//         }
-//         else {
-//             if numValue == "."{
-//                let isInt = floor(displayValue) == displayValue
-//                 // if for example 8 != 8.1 then no need to put . anymore // does not work for 0.0 !
-//                 if !isInt{
-//                     return
-//                 }
-//             }
-//             displayLabel.text?.append(numValue)
-//         }
-//       }
-    }
         
 }
