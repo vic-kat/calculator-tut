@@ -7,16 +7,9 @@
 import Foundation
 
 struct CalculatorLogic {
-
-  //private var isFinishedTypingNumber: Bool = true
     
  var number: Double
-    
-    init(number: Double) {
-        self.number = number
-    }
-    
-    
+
  func calculate(symbol: String) -> Double?{
     if symbol == "+/-" {
         return number * -1
@@ -31,7 +24,4 @@ struct CalculatorLogic {
         return nil
       }
    }
-    
-
-        
 }

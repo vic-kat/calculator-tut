@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func calcButtonPressed(_ sender: UIButton) {
-
+ 
         isFinishedTypingNumber = true
 
         if let calcMethod =  sender.currentTitle {
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     
     @IBAction func numButtonPressed(_ sender: UIButton) {
         //What should happen when a number is entered into the keypad
-        
+
         if let numValue = sender.currentTitle {
             
             if isFinishedTypingNumber {
@@ -66,7 +66,7 @@ class ViewController: UIViewController {
                         return
                     }
                 }
-               
+                   print("HA _HA")
                 displayLabel.text?.append(numValue)
             }
         }
